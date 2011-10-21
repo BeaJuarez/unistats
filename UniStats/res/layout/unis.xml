@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/appbk">
+	<TextView android:id="@+id/listUnis" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:gravity="center"
+		android:text="Job Name" android:textSize="30dip" android:textColor="#000055"
+		android:textStyle="bold" android:layout_marginTop="10dip" />
+
+
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:stretchColumns="1" android:layout_marginTop="20dip"
+		android:id="@+id/tableUnis">
+		<TableRow android:layout_marginBottom="10dip">
+			<TextView android:id="@+id/uni0" android:textSize="20dip"
+				android:textColor="#000055" android:textStyle="bold"
+				android:layout_column="1" android:layout_width="200dip"
+				android:text=" University " android:padding="3dip" />
+			<TextView android:id="@+id/perc0" android:textSize="20dip"
+				android:textColor="#000055" android:textStyle="bold" android:text="% with Job "
+				android:gravity="right" android:padding="3dip" />
+		</TableRow>
+	</TableLayout>
+
+
+	<ListView android:id="@+id/list" android:layout_width="fill_parent"
+		android:cacheColorHint="@null" android:layout_height="fill_parent"
+		android:layout_weight="1" android:background="@drawable/appbk" />
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="inital_btn_search" >
+		<item name="android:background">@drawable/header_ic_search</item>
+		<item name="android:visibility">visible</item> 
+	</style>
+    <style name="getsubjects" >
+		<item name="android:background">@drawable/subjects</item>
+		<item name="android:visibility">visible</item> 
+	</style>
+</resources>
